@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.btn {
+		@apply w-full rounded border border-transparent tracking-tight transition p-3 text-base text-body-primary font-extrabold;
+		@apply focus:outline-none focus:ring-2;
+	}
+
+	.btn-primary {
+		@apply bg-primary text-white;
+		@apply hover:bg-primary-dark;
+		@apply focus:ring-primary-dark focus:ring-offset-2;
+	}
+
+	.page-title {
+		@apply text-body-primary text-2xl font-bold;
+	}
+
+	.text-title {
+		@apply text-lg text-body-primary font-extrabold;
+		letter-spacing: -0.18px;
+	}
+
+	.text-description {
+		@apply text-body-primary font-normal text-sm leading-[18px];
+		letter-spacing: -0.13px;
+	}
+
+	.text-caption {
+		@apply text-body-secondary text-sm font-normal;
+		letter-spacing: -0.13px;
+	}
+
+	.separator {
+		@apply border-b border-b-gray-300;
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"discounts": [
+		{
+			"id": "BUY_TWO_GET_ONE_FREE",
+			"name": "Buy 2 get 1 free",
+			"eligibleProducts": ["CAP"]
+		},
+		{
+			"id": "BUY_THREE_OR_MORE_25DTO",
+			"name": "Buy 3 or more get 25% off",
+			"eligibleProducts": ["TSHIRT"],
+			"bulkQuantity": 3,
+			"bulkDiscount": 0.25
+		}
+	]
+}

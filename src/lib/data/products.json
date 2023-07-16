@@ -1,0 +1,37 @@
+{
+	"products": [
+		{
+			"id": "TSHIRT",
+			"code": "X7R2OPX",
+			"name": "T-Shirt",
+			"description": "Dress up your look with the perfect T-shirt. From weekends out with friends, to work meetings or casual nights out - there's a T-shirt for everyone. We have stylish and perfect T-shirts for any occasion. Our variety of prints and colours will make sure you stand out from the crowd. Shop now and find the T-shirt that fits your style.",
+			"price": 20.0,
+			"assets": {
+				"imageSrc": "/images/products/TSHIRT.png",
+				"thumbSrc": "/images/products/TSHIRT_thumb.png"
+			}
+		},
+		{
+			"id": "MUG",
+			"code": "Y2E9ORG",
+			"name": "Coffee Mug",
+			"description": "The Mug is the perfect accessory for your morning coffee. This ceramic mug is inscribed with quotes that will brighten up your day. The mug also includes a handle for easy lifting and carrying, and is dishwasher safe for extra convenience.",
+			"price": 7.5,
+			"assets": {
+				"imageSrc": "/images/products/MUG.png",
+				"thumbSrc": "/images/products/MUG_thumb.png"
+			}
+		},
+		{
+			"id": "CAP",
+			"code": "A0B2OGX",
+			"name": "Cap",
+			"description": "The cap is a unique wearable accessory that will help you stay fashionable and cool no matter where you go. The cap is made out of light-weight, breathable materials that allow natural air flow so you stay comfortable in even the hottest temperatures. Your head will stay hydrated as sweat and humidity are expelled, keeping your scalp feeling fresh all day long. The adjustable strap makes it easy to get a good fit.",
+			"price": 5.0,
+			"assets": {
+				"imageSrc": "/images/products/CAP.png",
+				"thumbSrc": "/images/products/CAP_thumb.png"
+			}
+		}
+	]
+}
